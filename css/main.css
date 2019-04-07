@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 /* div, img, a{
     border: 1px solid black;
 } */
 
+.Roboto{
+    font-family: 'roboto';
+}
 body{
     margin: 0%;
     padding: 0%;
@@ -27,6 +33,7 @@ body{
     margin-left: 160px;
 }
 #NavPosition{
+    width: 100%;
     position: fixed;
     top: 0%;
     z-index: 99;
@@ -54,7 +61,7 @@ form{
 .form-group{
     margin-top: 20px;
 }
-.form-group>input{
+.form-group>input, .col>input{
     border-radius: 25px;
 }
 .modal-body>div>img{
@@ -99,7 +106,17 @@ form{
     flex-wrap: wrap;
 }
 .card{
-    margin: 2%;
+    margin: 2% 3%;
+}
+.type-goods{
+    height: 200px;
+    background-size: 130%;
+    background-position: center;
+}
+.card-title{
+    text-align: center;
+    color: #777777;
+    font-size: 1.5em;
 }
 /* Show Goods */
 
@@ -107,6 +124,7 @@ form{
 #ShowMore{
     text-align: center;
     background-color: #86c03f;
+    margin: 30px;
 }
 /* ShowMore */
 

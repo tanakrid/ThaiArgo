@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/ProfileUser.css">
+    <link rel="stylesheet" href="css/ProfileGoods.css">
+    <link rel="stylesheet" href="css/StageContect.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+    <title>ARGONIC</title>
+</head>
+<body class="roboto">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="NavPosition">
+        <a class="navbar-brand" href="#" style="width:10%;"><img src="image/LogoArgo-01.png" alt="" style="width:120%;height:auto;margin-top: 5px;"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/Kustartup/" target="_blank">about us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.thairath.co.th/tags/%E0%B8%9F%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C" target="_blank">news</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/tanakrid.chanburi" target="_blank">contact</a>
+            </li>
+            <li class="nav-item">
+                <button id="login-navbar" type="button" class="btn btn-primary button-green" data-toggle="modal" data-target="#exampleModalLong">login</button>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document" >
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div style="width: 100%;text-align: center;">
+                        <img src="image/LogoArgo-01.png" alt="">
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Username</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+                        </div>
+                        <div style="width: 100%;text-align: center;margin-top:50px">
+                            <button type="button" class="btn btn-primary button-green" data-toggle="modal" data-target="#exampleModalScrollable" id="popup-register" data-dismiss="modal">Register</button>
+                            <button type="submit" class="btn btn-primary button-green" id="popup-login">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- <img src="image/objpopup-01.png" alt="" style="width:50%;height:auto;bottom:0px;right:1px;"> -->
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+            <div class="modal-body">
+                <div style="width: 100%;text-align: center;">
+                    <img src="image/LogoArgo-01.png" alt="">
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Country</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Country">
+                    </div>
+                    <label for="exampleInputEmail1">Country</label>
+                    <div class="form-row">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                          </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Phone Number</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Password">
+                    </div>
+                                
+                    <div style="width: 100%;text-align: center;margin-top:50px">
+                        <button type="submit" class="btn btn-primary button-green" id="popup-login">Register</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-ordering" id="spec-goods" style="margin-top: 200px">
+        <div class="content-status" style="background-image:url('image/Untitled-1-03.jpg');width:50px;height: 50px;"></div>
+        <div class="content-status"><p><b>Status</b></p><p>Growing</p></div>
+        <div class="content-status"><p><b>Date</b></p><p>24/04/2023</p></div>
+        <div class="content-status"><p><b>Quantity</b></p><p>30 unit</p></div>
+        <div class="content-status"><p><b>Total Price</b></p><p>30,000 bath</p></div>
+    </div>
+
+    <div class="container-timeline">
+        <div class="child-container-timeline">
+            <div class="timeline-picture" style="background-image:url('image/Untitled-1-01.png')"></div>
+            <p>1.Growing<br>4 - 5 mount to go</p>
+        </div>
+        <div class="child-container-timeline">
+            <div class="timeline-picture" style="background-image:url('image/Untitled-1-02.png')"></div>
+            <p>2.Harvesting</p>
+        </div>
+        <div class="child-container-timeline">
+            <div class="timeline-picture" style="background-image:url('image/Untitled-1-03.png')"></div>
+            <p>3.Quantity Checking</p>
+        </div>
+        <div class="child-container-timeline">
+            <div class="timeline-picture" style="background-image:url('image/Untitled-1-04.png')"></div>
+            <p>4.Packaging</p>
+        </div>
+        <div class="child-container-timeline">
+            <div class="timeline-picture" style="background-image:url('image/Untitled-1-05.png')"></div>
+            <p>5.Transporting</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

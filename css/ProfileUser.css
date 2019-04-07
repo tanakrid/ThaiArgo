@@ -1,0 +1,35 @@
+#base-profile{
+    margin-top: 130px;
+    width: 100%;
+    text-align: center;
+    padding: 0 20%;
+}
+.container-profile-user{
+    display: grid;
+    grid-template-columns: 30% auto;
+    border: 1px solid red;
+    height: 210px;
+}
+#icon-user{
+    /* height: 50px; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid green;
+    background-size: 90%;
+    background-position: center;
+}
+#user-name, #company-name{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin: auto;
+    /* padding: 70px 0; */
+}
+.card-body{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.show{
+    width: 100%;
+    text-align: center;
+}

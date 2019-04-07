@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     
-    <title>Thai ARGO</title>
+    <title>ARGONIC</title>
 </head>
-<body style="background-image:url('image/test.jpg');background-size: 100% 400px;background-repeat: no-repeat;">
+<body class="roboto" style="background-image:url('image/background-bright-cropland-974316.jpg');background-size: 100% 400px;background-repeat: no-repeat;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="NavPosition">
-        <a class="navbar-brand" href="#" style="width:10%;"><img src="image/LogoArgo-01.png" alt="" style="width:120%;height:auto"></a>
+        <a class="navbar-brand" href="#" style="width:10%;"><img src="image/LogoArgo-01.png" alt="" style="width:120%;height:auto;margin-top: 5px;"></a>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#" >about us</a>
+                <a class="nav-link" href="https://www.facebook.com/Kustartup/" target="_blank">about us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" >news</a>
+                <a class="nav-link" href="https://www.thairath.co.th/tags/%E0%B8%9F%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C" target="_blank">news</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" >contact</a>
+                <a class="nav-link" href="https://www.facebook.com/tanakrid.chanburi" target="_blank">contact</a>
             </li>
             <li class="nav-item">
                 <button id="login-navbar" type="button" class="btn btn-primary button-green" data-toggle="modal" data-target="#exampleModalLong">login</button>
@@ -38,7 +38,7 @@
                     <div style="width: 100%;text-align: center;">
                         <img src="image/LogoArgo-01.png" alt="">
                     </div>
-                    <form>
+                    <form action="ProfileUser.html">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Username</label>
                             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
@@ -48,7 +48,6 @@
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
                         </div>
                         <div style="width: 100%;text-align: center;margin-top:50px">
-                            <!-- <button type="submit" class="btn btn-primary button-green" id="popup-register">Submit</button> -->
                             <button type="button" class="btn btn-primary button-green" data-toggle="modal" data-target="#exampleModalScrollable" id="popup-register" data-dismiss="modal">Register</button>
                             <button type="submit" class="btn btn-primary button-green" id="popup-login">Submit</button>
                         </div>
@@ -71,11 +70,15 @@
                         <label for="exampleInputEmail1">Country</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Country">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name" style="width: 50%;">
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name " style="display:inline-block;width: 50%;">
-                    </div>
+                    <label for="exampleInputEmail1">Country</label>
+                    <div class="form-row">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                          </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Phone Number</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone Number">
@@ -111,55 +114,61 @@
 
     <div id="ShowGoods">
         <div class="card shadow-design" style="width: 18rem;">
-            <img src="image/mango-test.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Mango</h5>
-                <p class="card-text">ราคา Unit ละ 10$</p>
-                <a href="#" class="btn btn-primary">Go to offer list</a>
-            </div>
+            <a href="OfferList.html" style="text-decoration:none;color:#777;">
+                <div class="type-goods" style="background-image: url('image/Untitled-1-02.jpg');"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Tomato</h5>
+                    <p class="card-text"><b>500</b> Suppliers+</p>
+                </div>
+            </a>
         </div>
         <div class="card shadow-design" style="width: 18rem;">
-            <img src="image/mango-test.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Mango</h5>
-                <p class="card-text">ราคา Unit ละ 10$</p>
-                <a href="#" class="btn btn-primary">Go to offer list</a>
-            </div>
+            <a href="OfferList.html" style="text-decoration:none;color:#777;">
+                <div class="type-goods" style="background-image: url('image/Untitled-1-03.jpg');"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Rice</h5>
+                    <p class="card-text"><b>1000</b> Suppliers+</p>
+                </div>
+            </a>
         </div>
         <div class="card shadow-design" style="width: 18rem;">
-            <img src="image/mango-test.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Mango</h5>
-                <p class="card-text">ราคา Unit ละ 10$</p>
-                <a href="#" class="btn btn-primary">Go to offer list</a>
-            </div>
+            <a href="OfferList.html" style="text-decoration:none;color:#777;">
+            <div class="type-goods" style="background-image: url('image/Untitled-1-04.jpg');"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Cabbage</h5>
+                    <p class="card-text"><b>300</b> Suppliers+</p>
+                </div>
+            </a>
         </div>
         <div class="card shadow-design" style="width: 18rem;">
-            <img src="image/mango-test.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Mango</h5>
-                <p class="card-text">ราคา Unit ละ 10$</p>
-                <a href="#" class="btn btn-primary">Go to offer list</a>
-            </div>
+            <a href="OfferList.html" style="text-decoration:none;color:#777;">
+                <div class="type-goods" style="background-image: url('image/Untitled-1-06.jpg');"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Mango</h5>
+                    <p class="card-text"><b>500</b> Suppliers+</p>
+                </div>
+            </a>
         </div>
         <div class="card shadow-design" style="width: 18rem;">
-            <img src="image/mango-test.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Mango</h5>
-                <p class="card-text">ราคา Unit ละ 10$</p>
-                <a href="#" class="btn btn-primary">Go to offer list</a>
-            </div>
+            <a href="OfferList.html" style="text-decoration:none;color:#777;">
+                <div class="type-goods" style="background-image: url('image/Untitled-1-08.jpg');"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Mangosteen</h5>
+                    <p class="card-text"><b>500</b> Suppliers+</p>
+                </div>
+            </a>
         </div>
         <div class="card shadow-design" style="width: 18rem;">
-            <img src="image/mango-test.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Mango</h5>
-                <p class="card-text">ราคา Unit ละ 10$</p>
-                <a href="#" class="btn btn-primary">Go to offer list</a>
-            </div>
+            <a href="OfferList.html" style="text-decoration:none;color:#777;">
+                <div class="type-goods" style="background-image: url('image/Untitled-1-05.jpg');"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Durian</h5>
+                    <p class="card-text"><b>200</b> Suppliers+</p>
+                </div>
+            </a>
         </div>   
         <div style="width: 100%;text-align: center;">
-            <a href="#" class="btn btn-primary" id="ShowMore">Go to offer list</a>            
+            <a href="#" class="btn btn-primary" id="ShowMore">ShowMore</a>            
         </div> 
     </div>
 
