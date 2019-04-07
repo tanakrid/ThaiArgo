@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-/* div, img, a{
-    border: 1px solid black;
-} */
-
 .Roboto{
     font-family: 'roboto';
 }
@@ -30,7 +25,7 @@ body{
 
 /* navbar */
 .nav-item{
-    margin-left: 160px;
+    margin-left: 20%;
 }
 #NavPosition{
     width: 100%;
@@ -47,8 +42,6 @@ body{
     margin-right: 10% !important;
 }
 #login-navbar{
-    margin-left:70px;
-    margin-top: 3px;
     border-radius: 25px;
     padding: 5px 30px;
 }
@@ -58,9 +51,9 @@ body{
 form{
     padding: 0 30px;
 }
-.form-group{
+/* .form-group{
     margin-top: 20px;
-}
+} */
 .form-group>input, .col>input{
     border-radius: 25px;
 }
